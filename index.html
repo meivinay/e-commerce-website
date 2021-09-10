@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0,minimum-scale=1">
+        
     <title>Github Vinay</title>
 </head>
 <link rel="stylesheet" href="style.css">
@@ -21,6 +22,65 @@
             </div>
         
         <div class="wrapper-container">
+            <nav class= "nav-menu">
+                
+            <input type="checkbox" name="checkbox" id="checkbox_id">
+            <label for="checkbox_id" class="checkbox-label"> <span class="material-icons-outlined">
+                            menu
+                </span>
+            </label>    
+                <div class="logo">
+                    <span>
+                        <h1>Journal</h1>
+                    </span>   
+                </div>
+                <div class="mobile-version-options">
+                    <div class="sign-in icons-direction-column">
+                        <span class="material-icons">
+                            account_circle
+                            </span>
+                          <span>Sign in</span>
+                      </div>
+                      
+                        <div class="cart-icon bg-primary">
+                          <span class="material-icons-outlined">
+                              shopping_cart
+                              </span>
+                            </div>
+                      <div id="wishlist" class= "icons-direction-column">
+                        <span class="material-icons-outlined">
+                            favorite_border
+                            </span>
+                          <span>
+                                Wishlist
+                              </span>
+                    </div>
+                </div>
+                <div class="mobile-version side-menu-options">
+                    <div id="compare" >
+                        <span class="material-icons-outlined">
+                            tune
+                            </span>
+                        <span>
+                            Compare
+                        </span>
+                    </div>
+                    <div id="register">
+                        <span class="material-icons-outlined">
+                            add_circle_outline
+                            </span>
+                          <span>Register</span>
+                      </div>
+                            <div>18005556789</div>
+                            <div>
+                                <span class="material-icons-outlined">
+                                    insert_comment
+                                    </span>
+                                blog
+                            </div>
+                        
+                </div>
+            </nav>
             <header class="header-container row">
                     <div class="header-left col-3">
                       <div class="header-home icons"><span class="material-icons-outlined">
@@ -83,9 +143,9 @@
                         <span>
                             <h1>Journal</h1>
                         </span>
-    
+      
                     </div>
-                  <div class="col-5 search-bar-container">
+                  <div class="col-sm-5 col-xs-12 search-bar-container">
                     <div class="btn-group">
                         <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                           All
@@ -154,10 +214,10 @@
             <section class= "menu-container">
                 <!-- <div class="blank"></div> -->
                 <div class="departments row ">
-                    <div class="all-depart col-3 "><span class="material-icons-outlined">
+                    <div class="all-depart col-xs-1 col-md-3 "><span class="material-icons-outlined">
                         sort
                         </span>all departments</div>
-                    <div class="other-options col-5">
+                    <div class="other-options col-xs-1 col-md-5">
                         <div class="other-option ">
                             multilevel
                         </div>
@@ -167,7 +227,7 @@
                 </div>
                 <!-- <div class="bigger-blank col-4"></div> -->
                 <div class="contact row ">
-                    <div id="toll-free" class="col-4">18005556789</div>
+                    <div id="toll-free" class="col-5">18005556789</div>
                     <div id="blog" class="col-1">
                         <span class="material-icons-outlined">
                             insert_comment
@@ -183,7 +243,7 @@
                 east
                 </span></button>
             <section class="crousel-container row">
-                <div class="carousel col-9">
+                <div class="carousel col-xs-12 col-md-9">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -211,7 +271,7 @@
                         </button>
                       </div>
                 </div>
-                <div class="smaller-crousels col-3">
+                <div class="smaller-crousels col-xs-12 col-md-3">
                     <div id="top-item-1" class="top-item">
                     <img src="https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="product2"></img>
                 </div>
@@ -226,7 +286,7 @@
                         <i class="material-icons-outlined">
                         local_shipping
                         </i>
-                        <span>
+                        <span class=benefit-text>
                             free shipping
                         </span>
                     </div>
@@ -234,7 +294,7 @@
                         <i class="material-icons-outlined">
                             reply
                     </i>
-                    <span>
+                    <span class=benefit-text>
                         free returns
                     </span>
                 </div>
@@ -242,7 +302,7 @@
                         <i class="material-icons-outlined">
                             local_police
                     </i>
-                        <span>
+                        <span class=benefit-text>
                             Secure Shopping
                         </span>
                     </div>
@@ -250,7 +310,7 @@
                         <i class="material-icons-outlined">
                             view_in_ar
                             </i>
-                        <span>
+                        <span class=benefit-text>
                            Unlimited Blocks
                        </span>
                     </div>
